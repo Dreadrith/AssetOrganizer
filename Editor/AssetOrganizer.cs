@@ -23,7 +23,7 @@ namespace DreadScripts.AssetOrganizer
     public class AssetOrganizer : EditorWindow
     {
         #region Declarations
-        #region Constants
+        #region Constants ok
 
         private const string PrefsKey = "AvatarAssetOrganizerSettings";
         private static readonly OrganizeType[] organizeTypes =
