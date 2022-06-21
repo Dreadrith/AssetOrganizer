@@ -76,7 +76,7 @@ namespace DreadScripts.AssetOrganizer
         [SerializeField] private List<CustomFolder> specialFolders;
         [SerializeField] private OrganizeAction[] typeActions;
         [SerializeField] private SortOptions sortByOption;
-        [SerializeField] private bool deleteVoidFolders = true;
+        [SerializeField] private bool deleteEmptyFolders = true;
         #endregion
         #endregion
 
@@ -263,7 +263,7 @@ namespace DreadScripts.AssetOrganizer
             DrawSeparator();
             using (new GUILayout.HorizontalScope("helpbox"))
             {
-                deleteVoidFolders = EditorGUILayout.Toggle(new GUIContent("Delete Empty Folders", "After moving assets, delete source folders if they're empty"), deleteVoidFolders);
+                deleteEmptyFolders = EditorGUILayout.Toggle(new GUIContent("Delete Empty Folders", "After moving assets, delete source folders if they're empty"), deleteEmptyFolders);
                 sortByOption = (SortOptions)EditorGUILayout.EnumPopup("Sort Search By", sortByOption);
             }
         }
