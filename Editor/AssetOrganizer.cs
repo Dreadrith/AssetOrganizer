@@ -9,9 +9,6 @@ using System.Linq;
 using System.Collections.Generic;
 using Object = UnityEngine.Object;
 
-//This work is licensed under the Creative Commons Attribution-NonCommercial 2.0 License. 
-//To view a copy of the license, visit https://creativecommons.org/licenses/by-nc/2.0/legalcode
-
 //Made by Dreadrith#3238
 //Discord: https://discord.gg/ZsPfrGn
 //Github: https://github.com/Dreadrith/DreadScripts
