@@ -9,12 +9,6 @@ using System.Linq;
 using System.Collections.Generic;
 using Object = UnityEngine.Object;
 
-//Made by Dreadrith#3238
-//Discord: https://discord.gg/ZsPfrGn
-//Github: https://github.com/Dreadrith/DreadScripts
-//Gumroad: https://gumroad.com/dreadrith
-//Ko-fi: https://ko-fi.com/dreadrith
-
 namespace DreadScripts.AssetOrganizer
 {
     public class AssetOrganizer : EditorWindow
