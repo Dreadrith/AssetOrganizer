@@ -1,28 +1,16 @@
 {
-  "name": "com.dreadrith.assetorganizer",
-  "displayName": "DreadTools - Asset Organizer",
+  "name": "com.dreadscripts.assetorganizer",
+  "displayName": "DreadScripts - AssetOrganizer",
   "version": "1.0.0",
-  "unity": "2019.4",
-  "description": "Reorganizes Prefab, Scene or Folder's dependency assets into their own sorted folders",
-  "keywords": [
-    "Dreadrith",
-    "DreadScripts",
-    "DreadTools",
-    "VRChat",
-	"Tool",
-    "Asset",
-    "Organizer"
-  ],
+  "description": "Reorganizes Prefab, Scene or Folder's dependency assets into their own sorted folders.",
+  "gitDependencies": {},
+  "vpmDependencies": {},
   "author": {
     "name": "Dreadrith",
     "email": "dreadscripts@gmail.com",
-    "url": "https://linktr.ee/Dreadrith"
+    "url": "https://www.dreadrith.com"
   },
-  "legacyFolders": {
-    "Assets\\DreadScripts/AssetOrganizer": "e11c49e2be2810c43b1ee72c0d69d52e"
-  },
-  "legacyFiles": {
-    "Assets\\DreadScripts/AssetOrganizer/Editor/AssetOrganizer.cs": ""
-  },
-  "url" : "https://github.com/dreadrith/com.dreadrith.assetorganizer.git#1.0.0"
+  "legacyFolders": {},
+  "legacyFiles": {},
+  "type": "tool"
 }
